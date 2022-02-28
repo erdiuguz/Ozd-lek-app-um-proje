@@ -1,0 +1,56 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 802milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 802"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61919"}
+{"logLevel":"info","message":"Listening on port:61919"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlMainPageOpen' and 'BasePage.controlMainPageOpen'"}
+{"logLevel":"debug","message":"Found Uygulamaya giriş kontorlü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlRandomProduct' and 'BasePage.controlRandomProduct'"}
+{"logLevel":"debug","message":"Found Random Ürün Kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'"}
+{"logLevel":"debug","message":"Found xpatli {} 'li elemene tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlChategoryPageOpen' and 'BasePage.controlChategoryPageOpen'"}
+{"logLevel":"debug","message":"Found Kategori Giris Kontrolu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlLoginPage' and 'BasePage.controlLoginPage'"}
+{"logLevel":"debug","message":"Found Login Sayfası Kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickSearchButtonOnKeyboard' and 'BasePage.clickSearchButtonOnKeyboard'"}
+{"logLevel":"debug","message":"Found Klavyede arama butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickById' and 'BasePage.clickById'"}
+{"logLevel":"debug","message":"Found id {} 'li elemene tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.scroll' and 'BasePage.scroll'"}
+{"logLevel":"debug","message":"Found Ekranı {} defa sayfa sonuna kaydır ve {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.selectRandomSize' and 'BasePage.selectRandomSize'"}
+{"logLevel":"debug","message":"Found Rasgele beden seçimi yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.sendKeysId' and 'BasePage.sendKeysId'"}
+{"logLevel":"debug","message":"Found {}'li Elemene Tıkla ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.selectRandomProduct' and 'BasePage.selectRandomProduct'"}
+{"logLevel":"debug","message":"Found Rasgele ürün seçimi yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlAppOpen' and 'BasePage.controlAppOpen'"}
+{"logLevel":"debug","message":"Found Uygulama acılıs kontorlü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSeconds' and 'BasePage.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tRasgele ürün seçimi yap : public void selectRandomProduct()"}
+{"logLevel":"debug","message":"\tRandom Ürün Kontrolü : public void controlRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKategori Giris Kontrolu : public void controlChategoryPageOpen() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKlavyede arama butonuna bas : public void clickSearchButtonOnKeyboard()"}
+{"logLevel":"debug","message":"\tid {} 'li elemene tıkla : public void clickById(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\tEkranı {} defa sayfa sonuna kaydır ve {} saniye bekle : public void scroll(ınt times, ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{}'li Elemene Tıkla ve {} değerini yaz : public void sendKeysId(String id, String text)"}
+{"logLevel":"debug","message":"\tLogin Sayfası Kontrolü : public void controlLoginPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUygulamaya giriş kontorlü : public void controlMainPageOpen() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUygulama acılıs kontorlü : public void controlAppOpen() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\tRasgele beden seçimi yap : public void selectRandomSize()"}
+{"logLevel":"debug","message":"\txpatli {} 'li elemene tıkla : public void clickByxpath(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
